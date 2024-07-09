@@ -1,0 +1,6 @@
+@IncomeTaxCalculator_HostAddress = http://localhost:5047
+
+GET {{IncomeTaxCalculator_HostAddress}}/taxcalculator/
+Accept: application/json
+
+###
