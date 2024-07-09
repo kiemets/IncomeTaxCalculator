@@ -1,4 +1,4 @@
-﻿using IncomeTaxCalculator.Calculator;
+﻿using IncomeTaxCalculator.Api;
 
 namespace IncomeTaxCalculator.Tests
 {

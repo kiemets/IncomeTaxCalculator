@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeTaxCalculator", "IncomeTaxCalculator\IncomeTaxCalculator.csproj", "{E351A675-BCA8-4CCF-8D8E-FD0CE32696F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncomeTaxCalculator.Web", "IncomeTaxCalculator\IncomeTaxCalculator.Web.csproj", "{E351A675-BCA8-4CCF-8D8E-FD0CE32696F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeTaxCalculatorTests", "IncomeTaxCalculatorTests\IncomeTaxCalculatorTests.csproj", "{81FF3CDB-6C3C-450D-8856-B9C7EAF9502E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncomeTaxCalculator.Tests", "IncomeTaxCalculatorTests\IncomeTaxCalculator.Tests.csproj", "{81FF3CDB-6C3C-450D-8856-B9C7EAF9502E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeTaxCalculator.Api", "IncomeTaxCalculator.Api\IncomeTaxCalculator.Api.csproj", "{FCA86CAA-6F84-4D52-AB1E-903B7E7F9D5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{81FF3CDB-6C3C-450D-8856-B9C7EAF9502E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81FF3CDB-6C3C-450D-8856-B9C7EAF9502E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81FF3CDB-6C3C-450D-8856-B9C7EAF9502E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA86CAA-6F84-4D52-AB1E-903B7E7F9D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA86CAA-6F84-4D52-AB1E-903B7E7F9D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA86CAA-6F84-4D52-AB1E-903B7E7F9D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA86CAA-6F84-4D52-AB1E-903B7E7F9D5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
